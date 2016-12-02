@@ -5,7 +5,7 @@ ZSH=/usr/share/oh-my-zsh/
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="random"
+ZSH_THEME="mortalscumbag"
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="false"
@@ -47,7 +47,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # Protipp: add "battery" when using a laptop
-plugins=(git archlinux vagrant cp colorize)
+plugins=(git archlinux vagrant cp)
 
 # User configuration
 
