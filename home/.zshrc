@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-ZSH=/usr/share/oh-my-zsh/
+ZSH=/home/nventor/.oh-my-zsh/
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -47,7 +47,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # Protipp: add "battery" when using a laptop
-plugins=(git archlinux vagrant cp)
+plugins=(git archlinux vagrant cp battery)
 
 # User configuration
 
@@ -78,3 +78,7 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# use colorgcc for C and C++ compilation
+export PATH="/usr/lib/colorgcc/bin/:$PATH"
+export CCACHE_PATH="/usr/bin"    
