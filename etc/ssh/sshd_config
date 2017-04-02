@@ -24,7 +24,7 @@ ChallengeResponseAuthentication no
 UsePAM yes
 X11Forwarding no
 PrintMotd no # pam does that
-Ciphers aes256-cbc,aes256-ctr
+Ciphers aes256-gcm@openssh.com
 MACs hmac-sha2-512
 Subsystem	sftp	/usr/lib/ssh/sftp-server
 # insert username
